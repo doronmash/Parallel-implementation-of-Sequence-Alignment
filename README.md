@@ -1,4 +1,4 @@
-Parallel implementation of Sequence Alignment
+                                  Parallel implementation of Sequence Alignment
 
 MPI+OpenMP+CUDA Integration 
 At first we create two processes. 
@@ -16,4 +16,3 @@ My implementation for finding the offset and n, k with the best alignment score 
 3.	For each mutant, we iterate through all offsets and calculate its score according to the formula (CUDA).
 4.	We save the best score and offset for each mutant.
 5.	After finding all mutants scores, we iterate through all mutants and find the best score (OMP).
-
