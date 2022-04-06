@@ -1,4 +1,4 @@
-                                           Parallel implementation of Sequence Alignment
+                                         Parallel implementation of Sequence Alignment
 
 MPI+OpenMP+CUDA Integration 
 At first we create two processes. 
